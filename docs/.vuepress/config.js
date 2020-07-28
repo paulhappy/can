@@ -14,6 +14,39 @@ module.exports = {
    { text: '常见文件', link: '/base/file' },
  ]}
  ],
+ sidebar: [
+   ['/','关于'],
+   // {
+   //   title: '技术',
+   //   collapsable: true,
+   //   children: [
+   //     ['/jishu/MarkDownGrammer','md语法'],
+   //     {
+   //       title: '技术1',
+   //       collapsable: true,
+   //       children: [
+   //         ['/jishu/MarkDownGrammer','目录1']
+   //       ]
+   //     }
+   //   ]
+   // },
+   {
+     title: 'iOS',
+     collapsable: true,
+     children: [
+       ['/iOS/0.ram','内存管理']
+     ]
+   },
+   {
+     title: '随笔',
+     collapsable: true,
+     children: [
+       ['/Other/Mark','Mark'],
+       ['/Other/MarkDownGrammer','md语法']
+     ]
+   },
+   // ['/page-a/f3','11']
+ ],
  lastUpdated: 'Last Updated', // 显示最后更新时间
  //帮助编辑
  // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
