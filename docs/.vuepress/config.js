@@ -5,7 +5,7 @@ module.exports = {
  },
  title: 'Vue教程', //网站的标题，默认主题几个地方用到
  description: 'Tingno记编写的VUE教程', //网站的描述
- base:'/docs/', //要部署的根目录，不配置的话，都会到网站根目录下面
+ base:'/can/', //要部署的根目录，不配置的话，都会到网站根目录下面
  themeConfig: { //主题的配置信息
  nav: [ //导航栏配置
  { text: '首页', link: '/' }, //没有子导航的，显示文字和链接
